@@ -1,0 +1,54 @@
+[debug] [2022-02-06T18:20:43.692Z] ----------------------------------------------------------------------
+[debug] [2022-02-06T18:20:43.693Z] Command:       /Users/jingxiangmo/.nvm/versions/node/v17.4.0/bin/node /Users/jingxiangmo/.nvm/versions/node/v17.4.0/bin/firebase serve
+[debug] [2022-02-06T18:20:43.693Z] CLI Version:   10.1.4
+[debug] [2022-02-06T18:20:43.693Z] Platform:      darwin
+[debug] [2022-02-06T18:20:43.693Z] Node Version:  v17.4.0
+[debug] [2022-02-06T18:20:43.694Z] Time:          Sun Feb 06 2022 13:20:43 GMT-0500 (Eastern Standard Time)
+[debug] [2022-02-06T18:20:43.694Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-06T18:20:43.719Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-06T18:20:43.720Z] > authorizing via signed-in user (jingxiangmo@gmail.com)
+[debug] [2022-02-06T18:20:43.720Z] [iam] checking project fir-authentication-e544a for permissions ["firebase.projects.get"]
+[debug] [2022-02-06T18:20:43.721Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-authentication-e544a:testIamPermissions [none]
+[debug] [2022-02-06T18:20:43.721Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-authentication-e544a:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-02-06T18:20:44.004Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-authentication-e544a:testIamPermissions 200
+[debug] [2022-02-06T18:20:44.005Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-authentication-e544a:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-02-06T18:20:44.006Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-authentication-e544a [none]
+[debug] [2022-02-06T18:20:44.297Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-authentication-e544a 200
+[debug] [2022-02-06T18:20:44.298Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-authentication-e544a {"projectId":"fir-authentication-e544a","projectNumber":"155200754360","displayName":"firebase-authentication","name":"projects/fir-authentication-e544a","resources":{"hostingSite":"fir-authentication-e544a"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from '/Users/jingxiangmo/Projects/firebase-authentication'...
+[info] 
+[debug] [2022-02-06T18:20:44.301Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-authentication-e544a/sites 
+[debug] [2022-02-06T18:20:47.873Z] ----------------------------------------------------------------------
+[debug] [2022-02-06T18:20:47.874Z] Command:       /Users/jingxiangmo/.nvm/versions/node/v17.4.0/bin/node /Users/jingxiangmo/.nvm/versions/node/v17.4.0/bin/firebase serve
+[debug] [2022-02-06T18:20:47.874Z] CLI Version:   10.1.4
+[debug] [2022-02-06T18:20:47.874Z] Platform:      darwin
+[debug] [2022-02-06T18:20:47.874Z] Node Version:  v17.4.0
+[debug] [2022-02-06T18:20:47.875Z] Time:          Sun Feb 06 2022 13:20:47 GMT-0500 (Eastern Standard Time)
+[debug] [2022-02-06T18:20:47.875Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-06T18:20:47.899Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-06T18:20:47.899Z] > authorizing via signed-in user (jingxiangmo@gmail.com)
+[debug] [2022-02-06T18:20:47.899Z] [iam] checking project fir-authentication-e544a for permissions ["firebase.projects.get"]
+[debug] [2022-02-06T18:20:47.900Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-authentication-e544a:testIamPermissions [none]
+[debug] [2022-02-06T18:20:47.900Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-authentication-e544a:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-02-06T18:20:48.195Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-authentication-e544a:testIamPermissions 200
+[debug] [2022-02-06T18:20:48.195Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-authentication-e544a:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-02-06T18:20:48.197Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-authentication-e544a [none]
+[debug] [2022-02-06T18:20:48.405Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-authentication-e544a 200
+[debug] [2022-02-06T18:20:48.405Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-authentication-e544a {"projectId":"fir-authentication-e544a","projectNumber":"155200754360","displayName":"firebase-authentication","name":"projects/fir-authentication-e544a","resources":{"hostingSite":"fir-authentication-e544a"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from '/Users/jingxiangmo/Projects/firebase-authentication'...
+[info] 
+[debug] [2022-02-06T18:20:48.408Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-authentication-e544a/sites 
+[debug] [2022-02-06T18:20:48.983Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-authentication-e544a/sites 200
+[debug] [2022-02-06T18:20:48.983Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-authentication-e544a/sites {"sites":[{"name":"projects/155200754360/sites/fir-authentication-e544a","defaultUrl":"https://fir-authentication-e544a.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-02-06T18:20:48.984Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-authentication-e544a/webApps/-/config [none]
+[debug] [2022-02-06T18:20:50.134Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-authentication-e544a/webApps/-/config 200
+[debug] [2022-02-06T18:20:50.135Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-authentication-e544a/webApps/-/config {"projectId":"fir-authentication-e544a","appId":"1:155200754360:web:847a80f70de2c74f7dda4d","storageBucket":"fir-authentication-e544a.appspot.com","apiKey":"AIzaSyBM6IErRcwWg_e19g0vR7DaJJ4uBEYEtuM","authDomain":"fir-authentication-e544a.firebaseapp.com","messagingSenderId":"155200754360","measurementId":"G-RYTE952GCF"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [06/Feb/2022:18:20:51 +0000] "GET / HTTP/1.1" 200 1514 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:96.0) Gecko/20100101 Firefox/96.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [06/Feb/2022:18:20:51 +0000] \"GET / HTTP/1.1\" 200 1514 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:96.0) Gecko/20100101 Firefox/96.0\""}}
+[info] i  hosting: ::1 - - [06/Feb/2022:18:20:51 +0000] "GET /app.js HTTP/1.1" 200 21 "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:96.0) Gecko/20100101 Firefox/96.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [06/Feb/2022:18:20:51 +0000] \"GET /app.js HTTP/1.1\" 200 21 \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:96.0) Gecko/20100101 Firefox/96.0\""}}
+[info] i  hosting: ::1 - - [06/Feb/2022:18:20:52 +0000] "GET /favicon.ico HTTP/1.1" 200 1514 "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:96.0) Gecko/20100101 Firefox/96.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [06/Feb/2022:18:20:52 +0000] \"GET /favicon.ico HTTP/1.1\" 200 1514 \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:96.0) Gecko/20100101 Firefox/96.0\""}}
